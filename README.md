@@ -1,6 +1,6 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a1719884328523a5b49d/test_coverage)](https://codeclimate.com/github/SierraSystems/ntt-data-notification-service/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/a1719884328523a5b49d/maintainability)](https://codeclimate.com/github/SierraSystems/ntt-data-notification-service/maintainability)
 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=adodge-bcg_ntt-data-notification-service&metric=coverage)](https://sonarcloud.io/dashboard?id=adodge-bcg_ntt-data-notification-service)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=adodge-bcg_ntt-data-notification-service&metric=coverage)](https://sonarcloud.io/dashboard?id=adodge-bcg_ntt-data-notification-service) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=adodge-bcg_ntt-data-notification-service&metric=security_rating)](https://sonarcloud.io/dashboard?id=adodge-bcg_ntt-data-notification-service)
 
 # ntt-data-notification-service
 
