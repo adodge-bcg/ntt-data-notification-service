@@ -2,7 +2,7 @@ const assert = chai.assert;
 
 describe('isEmpty', () => {
   it('should return true when array is empty', () => {
-    assert.equal(true, isEmpty([]));
+    assert.equal(true, index.isEmpty([]));
   });
 
   it('should return false when array is not empty', () => {

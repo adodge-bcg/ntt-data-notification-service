@@ -174,3 +174,5 @@ function copyToClipboard() {
 
     $(".success-copy").show();
 }
+
+Modules.export = isEmpty;
