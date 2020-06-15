@@ -38,3 +38,4 @@ node_modules/
 
 pom.xml.versionsBackup
 .nyc_output
+coverage/
