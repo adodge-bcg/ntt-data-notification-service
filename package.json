@@ -14,9 +14,7 @@
         "jquery": "^3.5.1",
         "jsdom": "^16.2.2",
         "jsdom-global": "^3.0.2",
-        "mocha": "^2.3.4"
-    },
-    "dependencies": {
+        "mocha": "^2.3.4",
         "nyc": "^15.1.0"
     }
 }
