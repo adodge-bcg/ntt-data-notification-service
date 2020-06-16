@@ -23,7 +23,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: Analyze with SonarCloud
-        run: mvn -B verify sonar:sonar -Dsonar.projectKey=${{secrets.SONAR_KEY}} -Dsonar.organization=${{secrets.SONAR_ORG}} -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{secrets.SONAR_TOKEN}} -Dsonar.sources=./src/main -Dsonar.tests=src/main/resources/public -Dsonar.test.inclusions=**/*.test.js -Dsonar.coverage.jacoco.xmlReportPaths=${{github.workspace}}/target/site/jacoco/jacoco.xml -Dsonar.javascript.lcov.reportPaths=${{github.workspace}}/coverage/lcov.info
+        run: mvn -B verify sonar:sonar -Dsonar.projectKey=${{secrets.SONAR_KEY}} -Dsonar.organization=${{secrets.SONAR_ORG}} -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{secrets.SONAR_TOKEN}} -Dsonar.sources=./src/main -Dsonar.exclusions=**/NttdataNotificationServiceApplication.java,**/Config.java -Dsonar.tests=src/main/resources/public -Dsonar.test.inclusions=**/*.test.js -Dsonar.coverage.jacoco.xmlReportPaths=${{github.workspace}}/target/site/jacoco/jacoco.xml -Dsonar.javascript.lcov.reportPaths=${{github.workspace}}/coverage/lcov.info
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
