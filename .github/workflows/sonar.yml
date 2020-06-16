@@ -13,7 +13,6 @@ jobs:
       - run: npm build
       - run: npm test
       - run: ls ${{github.workspace}}/coverage
-      - uses: actions/checkout@v1
       - name: Set up JDK 1.8
         uses: actions/setup-java@v1
         with:
